@@ -1,6 +1,6 @@
 //
-//  AppTemplateApp.swift
-//  AppTemplate
+//  tcaAppStoreApp.swift
+//  tcaAppStore
 //
 //  Created by kwanghyun won on 2021/08/31.
 //
@@ -10,7 +10,7 @@ import AppFeature
 import ComposableArchitecture
 
 @main
-struct AppTemplateApp: App {
+struct tcaAppStoreApp: App {
   var body: some Scene {
     WindowGroup {
       AppView(

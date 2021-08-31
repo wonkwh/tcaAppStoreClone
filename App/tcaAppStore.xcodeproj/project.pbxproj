@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F706C45426DDC65C00A45722 /* AppTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F706C45326DDC65C00A45722 /* AppTemplateApp.swift */; };
+		F706C45426DDC65C00A45722 /* tcaAppStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F706C45326DDC65C00A45722 /* tcaAppStoreApp.swift */; };
 		F706C45826DDC65D00A45722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F706C45726DDC65D00A45722 /* Assets.xcassets */; };
 		F706C45B26DDC65D00A45722 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F706C45A26DDC65D00A45722 /* Preview Assets.xcassets */; };
 		F706C46926DDCF4400A45722 /* AppFeature in Frameworks */ = {isa = PBXBuildFile; productRef = F706C46826DDCF4400A45722 /* AppFeature */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F706C45026DDC65C00A45722 /* AppTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F706C45326DDC65C00A45722 /* AppTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTemplateApp.swift; sourceTree = "<group>"; };
+		F706C45026DDC65C00A45722 /* tcaAppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tcaAppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F706C45326DDC65C00A45722 /* tcaAppStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tcaAppStoreApp.swift; sourceTree = "<group>"; };
 		F706C45726DDC65D00A45722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F706C45A26DDC65D00A45722 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F706C45C26DDC65D00A45722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 		F706C44726DDC65C00A45722 = {
 			isa = PBXGroup;
 			children = (
-				F706C45226DDC65C00A45722 /* AppTemplate */,
+				F706C45226DDC65C00A45722 /* tcaAppStore */,
 				F706C45126DDC65C00A45722 /* Products */,
 				F706C46726DDCF4400A45722 /* Frameworks */,
 			);
@@ -45,20 +45,20 @@
 		F706C45126DDC65C00A45722 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F706C45026DDC65C00A45722 /* AppTemplate.app */,
+				F706C45026DDC65C00A45722 /* tcaAppStore.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F706C45226DDC65C00A45722 /* AppTemplate */ = {
+		F706C45226DDC65C00A45722 /* tcaAppStore */ = {
 			isa = PBXGroup;
 			children = (
-				F706C45326DDC65C00A45722 /* AppTemplateApp.swift */,
+				F706C45326DDC65C00A45722 /* tcaAppStoreApp.swift */,
 				F706C45726DDC65D00A45722 /* Assets.xcassets */,
 				F706C45C26DDC65D00A45722 /* Info.plist */,
 				F706C45926DDC65D00A45722 /* Preview Content */,
 			);
-			path = AppTemplate;
+			path = tcaAppStore;
 			sourceTree = "<group>";
 		};
 		F706C45926DDC65D00A45722 /* Preview Content */ = {
@@ -79,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F706C44F26DDC65C00A45722 /* AppTemplate */ = {
+		F706C44F26DDC65C00A45722 /* tcaAppStore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F706C45F26DDC65D00A45722 /* Build configuration list for PBXNativeTarget "AppTemplate" */;
+			buildConfigurationList = F706C45F26DDC65D00A45722 /* Build configuration list for PBXNativeTarget "tcaAppStore" */;
 			buildPhases = (
 				F706C44C26DDC65C00A45722 /* Sources */,
 				F706C44D26DDC65C00A45722 /* Frameworks */,
@@ -91,12 +91,12 @@
 			);
 			dependencies = (
 			);
-			name = AppTemplate;
+			name = tcaAppStore;
 			packageProductDependencies = (
 				F706C46826DDCF4400A45722 /* AppFeature */,
 			);
-			productName = AppTemplate;
-			productReference = F706C45026DDC65C00A45722 /* AppTemplate.app */;
+			productName = tcaAppStore;
+			productReference = F706C45026DDC65C00A45722 /* tcaAppStore.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F706C44B26DDC65C00A45722 /* Build configuration list for PBXProject "AppTemplate" */;
+			buildConfigurationList = F706C44B26DDC65C00A45722 /* Build configuration list for PBXProject "tcaAppStore" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F706C44F26DDC65C00A45722 /* AppTemplate */,
+				F706C44F26DDC65C00A45722 /* tcaAppStore */,
 			);
 		};
 /* End PBXProject section */
@@ -148,7 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F706C45426DDC65C00A45722 /* AppTemplateApp.swift in Sources */,
+				F706C45426DDC65C00A45722 /* tcaAppStoreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,16 +277,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"AppTemplate/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"tcaAppStore/Preview Content\"";
 				DEVELOPMENT_TEAM = AEVQL949E2;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = AppTemplate/Info.plist;
+				INFOPLIST_FILE = tcaAppStore/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wonkwh.AppTemplate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonkwh.tcaAppStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,16 +299,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"AppTemplate/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"tcaAppStore/Preview Content\"";
 				DEVELOPMENT_TEAM = AEVQL949E2;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = AppTemplate/Info.plist;
+				INFOPLIST_FILE = tcaAppStore/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wonkwh.AppTemplate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonkwh.tcaAppStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,7 +318,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F706C44B26DDC65C00A45722 /* Build configuration list for PBXProject "AppTemplate" */ = {
+		F706C44B26DDC65C00A45722 /* Build configuration list for PBXProject "tcaAppStore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F706C45D26DDC65D00A45722 /* Debug */,
@@ -327,7 +327,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F706C45F26DDC65D00A45722 /* Build configuration list for PBXNativeTarget "AppTemplate" */ = {
+		F706C45F26DDC65D00A45722 /* Build configuration list for PBXNativeTarget "tcaAppStore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F706C46026DDC65D00A45722 /* Debug */,

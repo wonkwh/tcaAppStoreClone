@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "AppTemplate",
+  name: "tcaAppStore",
   platforms: [
     .macOS(.v11),
     .iOS(.v14)

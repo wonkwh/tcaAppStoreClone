@@ -29,9 +29,9 @@ extension Color {
 
 extension Color {
   
-  public static let appTemplate = AppTemplate()
+  public static let appTemplate = tcaAppStore()
   
-  public struct AppTemplate {
+  public struct tcaAppStore {
     public let primary = Color.hex(0xFB8989)
     public let navy = Color.hex(0x000060)
     
